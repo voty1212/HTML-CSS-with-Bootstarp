@@ -1,0 +1,199 @@
+.container{
+width: 1024px;
+
+min-height:  300px ;
+margin-left: auto;
+margin-right: auto;
+}
+body{
+	background-image:url(imgs/image-lion-background.png);
+	font-family: 'Roboto', sans-serif;
+	 
+	color: white;
+	
+}
+header{
+	
+    display: flex;
+	justify-content: space-between;
+	/* margin-top:; */
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid lightgray;
+	
+
+}
+main{
+	min-height: 300px;
+	display: flex;
+	/*align-items: center;*/
+	/* align-items: flex-end; */
+
+}
+.cards{
+    
+	display: flex ;
+	justify-content: space-between;
+	text-align: center;
+}
+.cards1{
+	background-image: url(imgs/image-background-card1.jpg);
+	background-size: cover;
+	background-position: bottom;
+	min-height: 250px;
+	width: 30%;
+
+}
+.cards2{
+	background-image: url(imgs/image-background-card2.jpg);
+	background-size: cover;
+	background-position: bottom;
+	min-height: 250px;
+	width: 30%;
+
+}
+.cards3{
+	background-image: url(imgs/image-background-card3.jpg);
+	background-size: cover;
+	background-position: bottom;
+	min-height: 250px;
+	width: 30%;
+
+}
+.herobox1{
+	flex: 2;
+	padding-right: 100px;
+}
+.herobox2{
+    flex:1
+
+}
+html{
+	background-image: linear-gradient(#FC5E55, #FA4083);
+
+	
+}
+/* .HeaderClass{
+	text-align: center;
+} */
+h1{
+	font-size: 80px;
+	font-family: 'Playfair Display', serif;
+    margin-bottom: 1.12rem;
+}
+h2{
+	font-size: 2rem;
+	font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+p{
+	line-height: 1.75rem ;
+	margin-bottom: 1.5rem;
+
+}
+.cards p{
+	font-size: 0.85rem;
+	line-height: 1.2rem;
+	margin-top:10px;
+}
+i{
+	font-size: 100px;
+}
+.cards a{
+	color: white;
+	text-decoration:none;
+}
+.cards1,.cards2,.cards3{
+	padding: 30px 30px 20px 30px;
+	box-sizing: border-box;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.mybutton{
+	background-color: white;
+	color:#FA4083 ;
+	font-family: 'Playfair Display', serif;
+	padding:11px 25px 11px 25px ;
+	display: inline-block;
+	border-radius: 100px 100px 100px 100px;
+	box-shadow: 5px 5px 5px grey;
+
+}
+a.mybutton{
+     display: inline-block;
+	 margin-top: 10px;
+}
+nav a.mybutton{
+	margin-left: 30px;
+}
+.main2{
+	min-height: 300px;
+	padding-top: 50px;
+}
+.navbutton{
+	background-color: #fa408477;
+	border-color: white;
+   color: white;
+ font-family: 'Playfair Display', serif;
+ text-decoration: none;
+ box-shadow: white;	
+ padding:11px 25px 11px 25px ;
+	display: inline-block;
+	border-style: solid;
+	position: relative;
+}
+.tbox{
+	width: 47%;
+	padding: 50px;
+	border: 1px solid white;
+	box-sizing: border-box;
+	margin-top: 50px;
+}
+.testimonial{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-bottom: 100px;
+
+}
+.mybutton:hover{
+	background-color: rgba(29,213,101);
+	transition-duration: 1s;
+}
+.tbox p:last-of-type{
+  font-size: 0.8rem;
+  padding: left 30px; ;
+} 
+.dropdown{
+	display: none;
+	position:absolute;
+	z-index: 1;
+	padding-top: 20px;
+}
+
+.navbutton:hover .dropdown{
+	display: block;
+}
+.dropdown .navbutton{
+	width: 20px;
+	background-color: white;
+	color: #FC5E55;
+}
+.inputWrapper{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+input[type=text],input[type=text],textarea{
+	padding: 12px 20px;
+	width: 40%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+}
+.newline{
+	display: block;
+	margin-bottom: 10px;
+
+}

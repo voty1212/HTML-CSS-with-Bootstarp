@@ -1,0 +1,26 @@
+.navbutton{
+    background-color: green;
+    padding: 11px 25px;
+    width: 100px;
+    position: relative;
+    text-align: center;
+    display: inline-block
+}
+/* This turns off the drop down when not needed */
+.dropdownbox{
+    display: none;
+    position: absolute;
+    z-index:99;
+    padding-top: 20px;
+    margin-left: -30;
+}
+.navbutton:hover .dropdownbox{
+    display: block;
+}
+.dropdownbox .navbutton{
+    background-color: cadetblue;
+}
+.dropdownbox .navbutton:hover{
+    background-color: pink;
+    transition-duration:1s;
+}
